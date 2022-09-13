@@ -1,0 +1,73 @@
+<table border="1" cellspacing="0" cellpadding="5" align="center">
+  <thead bgcolor="silver">
+    <th>NO</th>
+    <th>NAMA</th>
+    <th>JABATAN</th>
+    <th>AGAMA</th>
+    <th>GAJI POKOK</th>
+    <th>TUNJANGAN JABATAN</th>
+    <th>TUNJANGAN KESEHATAN</th>
+    <th>GAJI KOTOR</th>
+    <th>ZAKAT PROFESI</th>
+    <th>TAKE HOME PAY</th>
+  </thead>
+  <tbody>
+    <script type="text/javascript">
+      document.write(`<center><h2>DAFTAR PEGAWAI</h2></center>`);
+      let m;
+      for (m = 1; m <= 100; m++) {
+        if (m >= 75) {
+          jbtn = "Staff";
+        } else if (m > 50) {
+          jbtn = "Supervisor";
+        } else if (m > 25) {
+          jbtn = "Assisten Manager";
+        } else {
+          jbtn = "Manager";
+        }
+        warna = m % 2 == 0 ? "deepskyblue" : "yellow";
+        agama = m % 2 == 0 ? "Non Muslim" : "Muslim";
+
+        switch (jbtn) {
+          case "Manager":
+            gapok = 15000000;
+            break;
+          case "Assisten Manager":
+            gapok = 10000000;
+            break;
+          case "Supervisor":
+            gapok = 7000000;
+            break;
+          case "Staff":
+            gapok = 4000000;
+        }
+
+        //Tunjangan Jabatan
+        tunjab = 0.2 * gapok;
+        //Tunjangan Kesehatan
+        tunkes = 0.1 * gapok;
+        //Gaji Kotor
+        gakot = gapok + tunjab + tunkes;
+
+        zakat = (agama == "Muslim") & (gakot >= 7000000) ? 0.025 * gakot : 0;
+
+        //Take Home Pay
+        thp = gakot - zakat;
+        document.write(
+          `<tr bgcolor=${warna}>
+                <td>${m}</td>
+                <td>Pegawai${m} </td>
+                <td>${jbtn}</td>
+                <td>${agama}</td>
+                <td>${gapok}</td>
+                <td>${tunjab}</td>
+                <td>${tunkes}</td>
+                <td>${gakot}</td>
+                <td>${zakat}</td>
+                <td>${thp}</td>
+            </tr>`
+        );
+      }
+    </script>
+  </tbody>
+</table>
