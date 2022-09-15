@@ -7,4 +7,4 @@
 <img src="https://user-images.githubusercontent.com/81398442/190320717-c60d82e6-9cf5-4985-9e72-fef09c5420a3.png">
 
 <h2>Tugas 3</h2>
-<img src="https://user-images.githubusercontent.com/81398442/190321441-4a9749cc-08b6-42c2-a133-2c550eca59e9.png">
+<img src="https://user-images.githubusercontent.com/81398442/190333014-70b1b7fe-893f-4f2d-86b7-474974626553.png">
