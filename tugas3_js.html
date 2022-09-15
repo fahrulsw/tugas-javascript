@@ -37,12 +37,14 @@ for(m of mahasiswa) {
         // A = 85 - 100, B = 75 - < 85 dst
         if (m.nilai >= 85 && m.nilai < 100) {
           grade = "A";
-        } else if (m.nilai >= 65 && m.nilai < 85) {
+        } else if (m.nilai >= 75 && m.nilai < 85) {
           grade = "B";
-        } else if (m.nilai >= 45 && m.nilai < 65) {
+        } else if (m.nilai >= 65 && m.nilai < 75) {
           grade = "C";
-        } else {
+        } else if (m.nilai >= 55 && m.nilai < 65) {
           grade = "D";
+        } else {
+          grade = "E";
         }
 
         //set predikat ( swtich case)
@@ -58,6 +60,9 @@ for(m of mahasiswa) {
             predikat = "Cukup";
             break;
           case "D":
+            predikat = "Kurang";
+            break;
+          case "E":
             predikat = "Buruk";
         }
 
