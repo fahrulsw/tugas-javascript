@@ -28,7 +28,7 @@
                 <div class="mb-3 row">
                     <label class="col-sm-2 col-form-label">Harga Barang</label>
                     <div class="col-sm-10">
-                    <input type="text" class="form-control" name="harga" placeholder="Masukan harga barang">
+                    <input type="text" class="form-control" name="harga" placeholder="Masukan harga barang $">
                     </div>
                 </div>
                 <div class="mb-3 row">
@@ -79,7 +79,7 @@ function konversiKurs(){
     let data = `<h5>Data Pembelian :</h5>
     <br/>Nama pembeli: ${pembeli} 
     <br/>Nama Barang: ${barang} 
-    <br/>Harga Barang: ${harga} 
+    <br/>Harga Barang: $${harga} 
     <br/>Jumlah barang: ${jumlah} 
     <br/>Valuta Asing: ${valuta}
     <br/>Total Bayar: Rp.${total} ` 
