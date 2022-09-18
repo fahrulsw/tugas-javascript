@@ -11,6 +11,6 @@ Repo Pengumpulan Tugas JavaScript
 <img src="https://user-images.githubusercontent.com/81398442/190333014-70b1b7fe-893f-4f2d-86b7-474974626553.png">
 
 <h2>Tugas 4</h2>
-<img src="https://user-images.githubusercontent.com/81398442/190840649-3d50e641-7aaa-4ce0-b2c5-2ecdb186421e.png">
+<img src="(https://user-images.githubusercontent.com/81398442/190884823-b1223970-c6c3-41d3-9cd7-df1d03d479a6.png">
 
 
