@@ -3,9 +3,7 @@ function hitung(btn) {
   var a1 = parseFloat(frm.angka1.value);
   var a2 = parseFloat(frm.angka2.value);
 
-  var tombol = btn;
-
-  switch (tombol) {
+  switch (btn) {
     case "tambah":
       if (isNaN(a1) || isNaN(a2)) {
         alert("Harap Masukan Angka");
