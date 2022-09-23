@@ -20,4 +20,5 @@ Repo Pengumpulan Tugas JavaScript
 <img src="https://user-images.githubusercontent.com/81398442/191251038-83cd1b03-a722-4751-b3fc-6dab659f8409.PNG">
 
 <h2>Tugas 7 | Jquery</h2>
+<img src="https://user-images.githubusercontent.com/81398442/191924354-11f66aad-7653-45e3-8113-be8d91f61222.png">
 <img src="https://user-images.githubusercontent.com/81398442/191923400-f9a4e090-27ee-4267-9ffe-09ac0443417a.png">
